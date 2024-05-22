@@ -1,7 +1,7 @@
 # 6.S966 Final Project Research Paper
 
 ## Introduction
-This project explores the application of hyperoctahedral symmetries and group equivariant neural networks to classify game states in n-dimensional tic-tac-toe. The motivation stems from the challenge of the exponential parameter space in higher-dimensional games, aiming to use symmetries to reduce computational complexity. The goal is to develop neural models that learn and exploit these symmetries, enhancing prediction accuracy and efficiency, with an end goal of applying sparse tensor libraries for optimization.
+This project explores the application of hyperoctahedral symmetries and group equivariant neural networks to classify game states in d-dimensional tic-tac-toe. The motivation stems from the challenge of the exponential parameter space in higher-dimensional games, aiming to use symmetries to reduce computational complexity. The goal is to develop neural models that learn and exploit these symmetries, enhancing prediction accuracy and efficiency, with an end goal of applying sparse tensor libraries for optimization.
 
 ## Related Work
 - **[Winning strategies in multi-dimensional tic-tac-toe](https://math.stackexchange.com/questions/909786/winning-strategies-in-multidimensional-tic-tac-toe)**: Discusses strategies and mathematical underpinnings for high-dimensional game states.
@@ -14,7 +14,7 @@ The project utilizes deep learning concepts, particularly group equivariant neur
 
 ## Methods
 Development involves:
-1. **Initialization**: Sets up an n-dimensional tensor as the game board.
+1. **Initialization**: Sets up a d-dimensional tensor as the game board.
 2. **Valid Game States**: Checks all possible winning conditions dynamically.
 3. **Play the Game**: Implements random and strategic moves to simulate games.
 4. **Dataset Generation**: Generates game states for training the neural networks.
